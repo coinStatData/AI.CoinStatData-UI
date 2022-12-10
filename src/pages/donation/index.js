@@ -14,7 +14,7 @@ function DonatePage(props) {
 			<div className="donate-cont">
 				<div>
 					{showAlert &&
-						<div className="alert-cont">
+						<div className="alert-cont"> 
 							<Alert variant="primary" onClose={() => setShowAlert(false)} dismissible>
 								<Alert.Heading>Anything Helps!</Alert.Heading>
 								<p className="disclaimer-p">
