@@ -69,6 +69,13 @@
   margin-bottom: 5px;
 }
 
+.img-gen-spinner-cont {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 1200px) {
   .image-gen-outer-cont {
     padding: 0 5%;

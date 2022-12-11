@@ -19,7 +19,7 @@ function AIPage({ screenWidth }) {
 				<ImageGen screenWidth={screenWidth} />
 			</div>
 		</>
-	)
+	);
 }
 
 export default AIPage;

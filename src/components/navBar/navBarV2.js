@@ -35,7 +35,7 @@ const NavBarV2 = () => {
               letterSpacing: "-1px"
             }}
           >
-            CoinStatData
+            AI.CoinStatData
           </Typography>
         </Toolbar>
       </Container>
