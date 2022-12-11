@@ -51,6 +51,7 @@ const Chat = (props) => {
       <div className="chat-type-title">
         <span>Jarvis</span>
           <img src={require('../../assets/bot.png')}></img>
+        <span className="ai-type-desc">AI-ChatBot</span>
       </div>
       <div className="chatv2-outer-cont">
         <div className="chat-inner-cont-main">

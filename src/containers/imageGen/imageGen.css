@@ -1,0 +1,121 @@
+.image-gen-outer-cont {
+  width: 100%;
+  padding: 0 15%;
+}
+
+.img-type-title {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.img-type-title img {
+  width: 25px;
+  margin-left: 5px;
+}
+.img-type-title .ai-type-desc {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.image-gen-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#image-gen-text {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  border: solid 1px rgb(222, 222, 222);
+  overflow-y: auto;
+  font-size: 13px;
+}
+
+.image-gen-text-cont {
+  width: 40%;
+  background: #F5F5F5;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  margin-right: 10px;
+  height: 400px;
+}
+
+.image-gen-img-cont {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(227, 227, 227);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 20px 5%;
+}
+
+.image-gen-img-cont img {
+  height: 100%;
+  display: block;
+  background-color: white
+}
+
+.prompt-help-txt {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1200px) {
+  .image-gen-outer-cont {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-gen-outer-cont {
+    padding: 0 2%;
+  }
+  .image-gen-img-cont img {
+    width: 100%;
+  }
+  .image-gen-img-cont {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .image-gen-outer-cont {
+    padding: 0 5%;
+  }
+  .image-gen-cont {
+    flex-direction: column;
+  }
+  .image-gen-img-cont {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .image-gen-text-cont {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+  }
+  .img-type-title {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 450px) {
+  .image-gen-outer-cont {
+    padding: 0 3%;
+  }
+  .image-gen-text-cont {
+    padding: 10px;
+  }
+  .image-gen-img-cont {
+    height: 300px;
+  }
+}

@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
-import Alert from 'react-bootstrap/Alert'
-import { INFO_TEXT, COMPANY_RIGHTS, DISCLAIMER } from './constants';
+import React from 'react';
+import { INFO_TEXT, COMPANY_RIGHTS } from './constants';
 import './footer.css';
 
 function Footer() {
-	const [showAlert, setShowAlert] = useState(true);
     
   return (
     <div className="footer-outer-cont">
@@ -26,12 +24,13 @@ function Footer() {
           </div>
           <div className="link-cont">
             <h5>Developer</h5>
+            <a target="_blank" href="https://ai.coinstatdata.com">Artificial Intelligence</a>
             <a target="_blank" href="https://github.com/coinStatData">GitHub</a>
-            <a target="_blank" href="https://chat.coinstatdata.com">AI-Bot</a>
           </div>
           <div className="link-cont">
-            <h5>Merchandise</h5>
-            <a target="_blank" href="https://alienvogue.com">AlienVogue</a>
+            <h5>Social</h5>
+            <a target="_blank" href="https://alienvogue.com">Merch</a>
+            <a target="_blank" href="https://www.instagram.com/coinstatdata/">Instagram</a>
           </div>
         </div>
       </div>
